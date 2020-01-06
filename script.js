@@ -7,7 +7,7 @@ function checkGuess(userGuess) {
     userGuesses.push(userGuess);
 
     if (userGuess === randomNumber) {
-        gameClear();
+        correct();
     } else if (guessCount === 10) {
         gameOver();
     } else {

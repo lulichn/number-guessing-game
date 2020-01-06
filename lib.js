@@ -12,7 +12,7 @@ function setMessage(message) {
 }
 
 
-function corrent() {
+function correct() {
     lastResult.textContent = 'おめでとう! 正解です!';
     lastResult.style.backgroundColor = 'green';
     lowOrHi.textContent = '';
